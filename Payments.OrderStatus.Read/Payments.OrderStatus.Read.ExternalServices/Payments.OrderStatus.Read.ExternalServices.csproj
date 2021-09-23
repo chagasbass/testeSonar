@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CeA.ResilientHttpClient" Version="1.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Payments.OrderStatus.Read.Domain\Payments.OrderStatus.Read.Domain.csproj" />
+    <ProjectReference Include="..\Payments.OrderStatus.Read.Shared\Payments.OrderStatus.Read.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
